@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react'
 import GlobalApi from '../Services/GlobalApi'
 import Loader from './Loader';
 import { HiOutlineChevronLeft, HiOutlineChevronRight  } from "react-icons/hi";
+import { ShimmerPostDetails } from "react-shimmer-effects";
 
 const screenWidth=window.innerWidth;
 function slider() {
@@ -40,7 +41,7 @@ function slider() {
       )}
     </div>
     </div>}
-    {Loading && <Loader />}
+    {Loading && <ShimmerPostDetails card cta variant="SIMPLE" />}
      
     </div>
     

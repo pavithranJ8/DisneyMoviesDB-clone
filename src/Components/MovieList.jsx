@@ -4,7 +4,7 @@ import MovieCard from './MovieCard';
 import Loader from './Loader';
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5';
 import HrMovieCard from './HrMovieCard';
-import ClipLoader from "react-spinners/ClipLoader";
+import { ShimmerPostDetails  } from "react-shimmer-effects";
 
 function MovieList({genreId,index_}) {
     const [movieList,setMovieList]=useState([])
@@ -58,7 +58,7 @@ function MovieList({genreId,index_}) {
             ${index_%3==0?'mt-[80px]':'mt-[150px]'}`}/> 
     </div>}
 
-    {Loading && <Loader />}
+    {Loading &&  <ShimmerPostDetails card cta variant="SIMPLE" />}
     </div>
     
   )
