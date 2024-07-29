@@ -2,12 +2,12 @@ import React from 'react'
 import { Suspense } from 'react';
 import GenresList from '../Constant/GeneralsList'
 import MovieList from './MovieList'
-import { ShimmerText } from "react-shimmer-effects";
+import { ShimmerFeaturedGallery } from "react-shimmer-effects";
 
 function GenreMovieList() {
     
   function Loading() {
-    return <ShimmerText line={10} gap={10} />;
+    return <ShimmerFeaturedGallery row={2} col={3} card frameHeight={300} className='shimercol' />;
   }
 
   return (

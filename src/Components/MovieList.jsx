@@ -4,7 +4,7 @@ import MovieCard from './MovieCard';
 import Loader from './Loader';
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5';
 import HrMovieCard from './HrMovieCard';
-import { ShimmerText } from "react-shimmer-effects";
+import { ShimmerFeaturedGallery  } from "react-shimmer-effects";
 
 
 
@@ -60,7 +60,7 @@ function MovieList({genreId,index_}) {
             ${index_%3==0?'mt-[80px]':'mt-[150px]'}`}/> 
     </div>}
 
-    {Loading &&  <ShimmerText line={10} gap={10} />}
+    {Loading && <ShimmerFeaturedGallery row={2} col={3} card frameHeight={300} className='shimercol' />}
     </div>
     
   )

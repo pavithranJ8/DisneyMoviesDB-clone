@@ -4,13 +4,13 @@ import Header from './Components/Header'
 import Slider from './Components/slider'
 import ProductionHouse from './Components/productionHouse'
 import GenreMovieList from './Components/GeneralMovieList'
-import { ShimmerText } from "react-shimmer-effects";
+import { ShimmerFeaturedGallery } from "react-shimmer-effects";
 import { Suspense } from 'react';
 
 function App() {
 
   function Loading() {
-    return <ShimmerText line={15} gap={10} />;
+    return <ShimmerFeaturedGallery row={1} col={2} card frameHeight={300} />;
   }
 
   const [count, setCount] = useState(0)

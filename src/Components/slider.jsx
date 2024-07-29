@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react'
 import GlobalApi from '../Services/GlobalApi'
 import Loader from './Loader';
 import { HiOutlineChevronLeft, HiOutlineChevronRight  } from "react-icons/hi";
-import { ShimmerText } from "react-shimmer-effects";
+import { ShimmerFeaturedGallery } from "react-shimmer-effects";
 
 const screenWidth=window.innerWidth;
 function slider() {
@@ -41,7 +41,7 @@ function slider() {
       )}
     </div>
     </div>}
-    {Loading && <ShimmerText line={15} gap={10} />}
+    {Loading && <ShimmerFeaturedGallery row={1} col={2} card frameHeight={300} className='shimercol'/>}
      
     </div>
     
