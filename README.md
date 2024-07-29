@@ -4,6 +4,7 @@ Get Your API key at => https://rapidapi.com/elisbushaj2/api/movies-api14/playgro
 
 
 Available Scripts
+
 In the project directory, you can run:
 
 npm run dev
