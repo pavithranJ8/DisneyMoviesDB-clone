@@ -2,12 +2,12 @@ import React from 'react'
 import { Suspense } from 'react';
 import GenresList from '../Constant/GeneralsList'
 import MovieList from './MovieList'
-import { ShimmerPostDetails    } from "react-shimmer-effects";
+import { ShimmerText } from "react-shimmer-effects";
 
 function GenreMovieList() {
     
   function Loading() {
-    return  <ShimmerPostDetails card cta variant="SIMPLE" />;
+    return <ShimmerText line={10} gap={10} />;
   }
 
   return (
