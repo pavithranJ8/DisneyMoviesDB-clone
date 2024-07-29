@@ -10,7 +10,7 @@ import { Suspense } from 'react';
 function App() {
 
   function Loading() {
-    return <ShimmerFeaturedGallery row={1} col={2} card frameHeight={300} />;
+    return <ShimmerFeaturedGallery row={1} col={1} card frameHeight={300} />;
   }
 
   const [count, setCount] = useState(0)

@@ -41,7 +41,7 @@ function slider() {
       )}
     </div>
     </div>}
-    {Loading && <ShimmerFeaturedGallery row={1} col={2} card frameHeight={300} className='shimercol'/>}
+    {Loading && <ShimmerFeaturedGallery row={1} col={1} card frameHeight={300} className='shimercol'/>}
      
     </div>
     
