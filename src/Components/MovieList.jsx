@@ -4,7 +4,9 @@ import MovieCard from './MovieCard';
 import Loader from './Loader';
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5';
 import HrMovieCard from './HrMovieCard';
-import { ShimmerPostDetails  } from "react-shimmer-effects";
+import { ShimmerPostDetails } from "react-shimmer-effects";
+
+
 
 function MovieList({genreId,index_}) {
     const [movieList,setMovieList]=useState([])

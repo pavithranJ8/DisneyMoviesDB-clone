@@ -5,7 +5,7 @@ const options = {
     method: 'GET',
     url: 'https://movies-api14.p.rapidapi.com/shows',
     headers: {
-      'x-rapidapi-key': 'a0161aab42mshd484584a894e785p10e177jsn2e1ac39bbf38',
+      'x-rapidapi-key': '1ee8c60255msh0c17bad956208e1p137ff7jsn862530eb2443',
       'x-rapidapi-host': 'movies-api14.p.rapidapi.com'
     }
   };
@@ -23,7 +23,7 @@ const options = {
           query: src
         },
         headers: {
-          'x-rapidapi-key': 'a0161aab42mshd484584a894e785p10e177jsn2e1ac39bbf38',
+          'x-rapidapi-key': '1ee8c60255msh0c17bad956208e1p137ff7jsn862530eb2443',
           'x-rapidapi-host': 'movies-api14.p.rapidapi.com'
         }
       };
