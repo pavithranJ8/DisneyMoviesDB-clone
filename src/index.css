@@ -60,12 +60,6 @@ button:focus-visible {
   background-color: #e2d7d7;
 }
 
-.shimmer {
-  background: linear-gradient(to right, #5e9f849c 8%, #87a58d 18%, #a79393 33%) !important;
-  background-size: 1000px 100%;
-  animation: shimmer 2.2s linear infinite forwards;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: rgba(255, 255, 255, 0.87);
